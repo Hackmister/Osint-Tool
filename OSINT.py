@@ -10,12 +10,12 @@ def main():
 
     while alive:
 
-        user_input = input("( AnonFinder ) >>> ")
+        user_input = input("( OSINT ) >>> ")
 
         env.output(user_input)
 
         if user_input == "exit":
-            env.output("Thank you for using AnonFinder!")
+            env.output("Thank you for using Osint Tools!")
             env.exit_program()
 
         elif user_input == "help":
