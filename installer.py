@@ -30,7 +30,7 @@ try:
         os.system('pip3 install {}'.format(module))
 
 except ConnectionError or PermissionError or OSError:
-    print("Something went wrong when installing required python modules for AnonFinder.")
+    print("Something went wrong when installing required python modules for OSINT Tools.")
 
 
 finally:
